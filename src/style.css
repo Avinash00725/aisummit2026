@@ -145,6 +145,10 @@ ul {
 }
 
 /* Navbar */
+#nav-cta {
+  margin-left: auto;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -166,12 +170,17 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  gap: 2rem;
+  /* Ensure minimum spacing between logo, links, and button */
 }
 
 .logo-container {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex: 1;
+  /* Take up space on left */
 }
 
 .logo {
@@ -201,6 +210,8 @@ ul {
   padding: 0.5rem 1.5rem;
   border-radius: var(--radius-pill);
   border: 1px solid rgba(0, 0, 0, 0.03);
+  justify-content: center;
+  /* Center in the available space if needed, or we can rely on flex-1 on sides */
 }
 
 .nav-links li a {
