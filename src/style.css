@@ -1,5 +1,4 @@
 :root {
-  /* Sundial-inspired Theme */
   --bg-body: #fdfbfb;
   --bg-gradient: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
   --bg-card: #ffffff;
@@ -1023,7 +1022,12 @@ ul {
 
 @media (max-width: 768px) {
 
- .nav-links.active {
+  .nav-links,
+  #nav-cta {
+    display: none;
+  }
+
+  .nav-links.active {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -1041,7 +1045,6 @@ ul {
   .nav-links.active li {
     text-align: center;
   }
-
 
   .mobile-toggle {
     display: block;
