@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/assets/logo.jpg" />
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.jpeg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Summit 2026 | GNITC</title>
   <!-- Fonts -->
@@ -20,12 +20,13 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="container nav-content">
-      <div class="logo-container">
+      <a href="/" class="logo-container">
         <img src="/assets/logo.webp" alt="GNI Logo" class="gni-logo">
         <!-- <span class="logo">AI SUMMIT <span class="highlight">2026</span></span> -->
-      </div>
+      </a>
       <div class="hamburger mobile-toggle"><i class="fas fa-bars"></i></div>
       <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#committee">Committee</a></li>
         <li><a href="#events">Events</a></li>
@@ -33,15 +34,16 @@
         <li><a href="#register">Register</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#venue">Venue</a></li>
+        <li><a href="#gallery">Gallery</a></li>
       </ul>
       <a href="#register" class="btn btn-primary" id="nav-cta">Register</a>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="hero-content fade-in">
-      <h2>Department of AIML/AIDS/IOT presents </h2>
+      <h2>Department of AIML/AIDS/IOT presents</h2>
       <h1 class="hero-title">AI SUMMIT 2026</h1>
       <div class="hero-meta">
         <div class="meta-item"><i class="fa-regular fa-calendar"></i> 20 – 21 February 2026</div>
@@ -161,8 +163,8 @@
         <div class="event-card fade-in" onclick="openModal('paper')">
           <!-- <div class="event-image paper-img">
             <i class="fa-solid fa-file-lines"></i>
-          </div>-->
-          <div class="event-content"> 
+          </div> -->
+          <div class="event-content">
             <h3>Paper Presentation</h3>
             <p>8+2 min | IEEE Format | Max 6 pages</p>
             <p style="margin-top:1rem; color:var(--primary); font-weight:bold; cursor: pointer;">Click for Guidelines
@@ -414,6 +416,7 @@
       <div class="footer-links" style="text-align: left;">
         <h4>Quick Links</h4>
         <ul>
+          <li><a href="#home">Venue</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#events">Events</a></li>
           <li><a href="#register">Register</a></li>
