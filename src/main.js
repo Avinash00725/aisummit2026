@@ -105,7 +105,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li>Team: 1–2 members</li>
                 <li>Bring soft + 2 printed copies</li>
                 <li>8 min presentation + 2 min Q&A</li>
-              </ul>`;
+              </ul>
+              <div style="margin-top: 2rem; text-align: right;">
+                <a href="#register" class="btn btn-primary" onclick="document.getElementById('universalModal').style.display='none'">Register</a>
+              </div>`;
     } else if (type === 'poster') {
       content = `<h3>Poster Presentation Guidelines</h3>
               <ul>
@@ -113,7 +116,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li>Team: max 2</li>
                 <li>5 minutes presentation</li>
                 <li>Must include title, names, problem, solution, visuals</li>
-              </ul>`;
+              </ul>
+              <div style="margin-top: 2rem; text-align: right;">
+                <a href="#register" class="btn btn-primary" onclick="document.getElementById('universalModal').style.display='none'">Register</a>
+              </div>`;
     } else if (type === 'startup') {
       content = `<h3>Startup Expo Guidelines</h3>
               <ul>
@@ -121,7 +127,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li>10 min + live demo</li>
                 <li>Stall provided</li>
                 <li>Judged on innovation, feasibility, pitch</li>
-              </ul>`;
+              </ul>
+              <div style="margin-top: 2rem; text-align: right;">
+                <a href="#register" class="btn btn-primary" onclick="document.getElementById('universalModal').style.display='none'">Register</a>
+              </div>`;
     }
     if (modalBody) {
       modalBody.innerHTML = content;
